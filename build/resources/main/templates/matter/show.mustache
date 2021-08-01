@@ -1,0 +1,77 @@
+{{>layouts/header}}
+
+    <div class="content">
+        <h1>案件情報</h1>
+        <hr>
+        <div class="con_table">
+            {{#isWriter}}
+                <div class="con_table_caption">
+                    <a href="/matter/modify/{{matter.id}}"><i class="fas fa-edit"></i></a>
+                    <a href="/matter/remove/{{matter.id}}"><i class="fas fa-trash-alt"></i></a>
+                </div>
+            {{/isWriter}}
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    NO
+                </div>
+                <div class="con_table_cell" id="matter_id">
+                    {{matter.id}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    タイトル
+                </div>
+                <div class="con_table_cell">
+                    {{matter.title}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    作成者
+                </div>
+                <div class="con_table_cell">
+                    {{matter.username}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    登録日時
+                </div>
+                <div class="con_table_cell" id="cre_date">
+                    {{matter.createdDate}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    修正日時
+                </div>
+                <div class="con_table_cell" id="mod_date">
+                    {{matter.modifiedDate}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    ステータス
+                </div>
+                <div class="con_table_cell" id="com_status">
+                    {{matter.completeStatus}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    その他
+                </div>
+                <div class="con_table_cell">
+                    {{matter.content}}
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        {{#isAdmin}}
+            <button type="button" class="btn" id="complete">処理完了</button>
+        {{/isAdmin}}
+    </div>
+    <script type="text/javascript" src="/js/show.js"></script>
+
+{{>layouts/footer}}

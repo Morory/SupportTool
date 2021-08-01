@@ -1,0 +1,138 @@
+@font-face {
+    src: url("../font/kosugiMaru.ttf");
+    font-family: 'Kosugi Maru', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+body
+{
+    background: #fff;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .imgBox
+{
+    position: relative;
+    max-width: 600px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+.content .imgBox h1
+{
+    font-size: 2.5em;
+    text-align: center;
+}
+.content .imgBox img
+{
+    max-width: 300px;
+}
+.content .inputBox
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content .inputBox .submit
+{
+    text-align: center;
+}
+.content .inputBox .input
+{
+    width: 300px;
+    height: 40px;
+    font-size: 1.1em;
+    padding: 2px 10px;
+    margin: 5px 10px;
+}
+.content .inputBox .btn
+{
+    width: 300px;
+    height: 40px;
+    font-size: 1.1em;
+    padding: 2px 10px;
+    margin: 5px 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background: royalblue;
+}
+.content .inputBox .btn:hover
+{
+    color: royalblue;
+    background: white;
+    border: 2px solid royalblue;
+}
+@media (max-width: 991px)
+{
+    section
+    {
+        height: 100%;
+    }
+    .content
+    {
+        flex-direction: column;
+        padding-bottom: 200px;
+    }
+    .content .imgBox
+    {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .content .imgBox h1
+    {
+        font-size: 2em;
+    }
+    .content .imgBox img
+    {
+        max-width: 150px;
+    }
+    .content .inputBox
+    {
+        max-width: 100%;
+    }
+}
+
+@media (prefers-color-scheme: dark)
+{
+    body
+    {
+        color: lightgray;
+        background: rgb(53, 54, 58);
+    }
+    .content .imgBox img
+    {
+        filter: invert(80%);
+    }
+    .content .inputBox .btn
+    {
+        color: lightgray;
+    }
+    .content .inputBox .btn:hover
+    {
+        background: rgb(53, 54, 58);
+    }
+}

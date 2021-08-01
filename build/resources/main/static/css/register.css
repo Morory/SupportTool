@@ -1,0 +1,114 @@
+section
+{
+    align-items: flex-start;
+}
+.content
+{
+    flex-direction: column;
+    justify-content: center;
+}
+.content h1
+{
+    color: royalblue;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.content hr
+{
+    width: 100%;
+}
+.content .reg_table
+{
+    display: table;
+    width: 100%;
+    padding-top: 25px;
+}
+.content .reg_table_row
+{
+    display: table-row;
+}
+.content .reg_table_cell
+{
+    display: table-cell;
+    height: 80px;
+    vertical-align: middle;
+}
+.content .reg_table_row .reg_table_cell:nth-child(1)
+{
+    font-size: 1.3em;
+    color: royalblue;
+    width: 42%;
+}
+.content .reg_table_row .reg_table_cell:nth-child(2)
+{
+    font-size: 1.1em;
+}
+.content .reg_table_cell input
+{
+    width: 350px;
+    height: 30px;
+}
+.content .reg_table_cell select
+{
+    width: 350px;
+    height: 30px;
+}
+.content .reg_table_cell textarea
+{
+    width: 350px;
+    height: 130px;
+}
+.content .btn
+{
+    height: 50px;
+    margin-top: 50px;
+}
+.content #submit, .content #goback, .content #chk_comment, .content .chk_input
+{
+    display: none;
+}
+.content #chk_comment
+{
+    color: red;
+    font-size: 1.3em;
+    padding-top: 5px;
+}
+@media (max-width: 991px)
+{
+    .content
+    {
+        margin-top: 80px;
+    }
+    .content h1
+    {
+        font-size: 1.6em;
+    }
+    .content .reg_table
+    {
+        padding-top: 30px;
+        width: 350px;
+    }
+    .content .reg_table_cell
+    {
+        display: table-row;
+        height: 40px;
+    }
+    .content .reg_table_row .reg_table_cell:nth-child(1)
+    {
+        font-size: 1.1em;
+    }
+    .content .reg_table_row .reg_table_cell:nth-child(2)
+    {
+        font-size: 0.9em;
+    }
+    .content .btn
+    {
+        width: 170px;
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    .content #chk_comment
+    {
+        font-size: 0.9em;
+    }
+}

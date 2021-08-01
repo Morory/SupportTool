@@ -1,0 +1,55 @@
+{{>layouts/header}}
+    <link rel="stylesheet" href="/css/counting/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <div class="content">
+        <h1>集計情報</h1>
+        <hr>
+        <h2>集計日付 <button type="button"><input id="selectedDate"><i class="fas fa-caret-down"></i></button></h2>
+        <div class="detail">
+            <input type="hidden" id="date" value="{{countingMatter.countedDate}}">
+            <input type="hidden" id="complete" value="{{countingMatter.completedAmount}}">
+            <input type="hidden" id="uncomplete" value="{{countingMatter.uncompletedAmount}}">
+            <input type="hidden" id="etc" value="{{countingMatter.etcAmount}}">
+            <div id="chart"></div>
+            <div class="table">
+                <div class="row">
+                    <div class="cell">
+                        問い合わせ件数
+                    </div>
+                    <div class="cell" id="dailyTotal">
+                        {{countingMatter.dailyTotal}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        処理完了件数
+                    </div>
+                    <div class="cell" id="completedAmount">
+                        {{countingMatter.completedAmount}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        未処理件数
+                    </div>
+                    <div class="cell" id="uncompletedAmount">
+                        {{countingMatter.uncompletedAmount}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        その外の件数
+                    </div>
+                    <div class="cell" id="etcAmount">
+                        {{countingMatter.etcAmount}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://npmcdn.com/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="https://npmcdn.com/flatpickr/dist/l10n/ja.js"></script>
+    <script type="text/javascript" src="/js/counting/index.js"></script>
+
+{{>layouts/footer}}

@@ -1,0 +1,75 @@
+{{>layouts/header}}
+
+    <link rel="stylesheet" href="/css/remove.css">
+    <div class="content">
+        <h1>案件削除</h1>
+        <hr>
+        <div class="comment">※　案件を削除してもよろしいでしょうか</div>
+        <div class="con_table">
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    NO
+                </div>
+                <div class="con_table_cell" id="matter_id">
+                    {{matter.id}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    タイトル
+                </div>
+                <div class="con_table_cell">
+                    {{matter.title}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    作成者
+                </div>
+                <div class="con_table_cell">
+                    {{matter.username}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    登録日時
+                </div>
+                <div class="con_table_cell" id="cre_date">
+                    {{matter.createdDate}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    修正日時
+                </div>
+                <div class="con_table_cell" id="mod_date">
+                    {{matter.modifiedDate}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    ステータス
+                </div>
+                <div class="con_table_cell" id="com_status">
+                    {{matter.completeStatus}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    その他
+                </div>
+                <div class="con_table_cell" id="com_status">
+                    {{matter.content}}
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="btns">
+            <button type="button" class="btn" id="goback">戻る</button>
+            <button type="button" class="btn" id="remove">削除</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/remove.js"></script>
+
+{{>layouts/footer}}

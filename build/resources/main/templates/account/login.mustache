@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="/js/login.js"></script>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+<section>
+    <div class="content">
+        <div class="imgBox">
+            <h1 id="hello"></h1>
+            <img src="/img/logo.png">
+        </div>
+        <div class="inputBox">
+            <form action="/login" method="post">
+                <div>
+                    <input type="text" name="username" placeholder="ユーザID" class="input">
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="パスワード" class="input">
+                </div>
+                <div class="submit">
+                    <button type="submit" class="btn">ログイン</button>
+                </div>
+            </form>
+            <a href="/joinForm">
+                <button type="button" class="btn">会員登録</button>
+            </a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

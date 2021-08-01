@@ -1,0 +1,77 @@
+    {{>layouts/header}}
+
+    <link rel="stylesheet" href="/css/modify.css">
+    <div class="content">
+        <h1>案件修正</h1>
+        <hr>
+        <div class="comment">※　この内容で修正してもよろしいでしょうか。</div>
+        <div class="con_table">
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    NO
+                </div>
+                <div class="con_table_cell" id="matter_id">
+                    {{matter.id}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    タイトル
+                </div>
+                <div class="con_table_cell">
+                    <input type="text" value="{{matter.title}}" id="title">
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    作成者
+                </div>
+                <div class="con_table_cell">
+                    {{matter.username}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    登録日時
+                </div>
+                <div class="con_table_cell" id="cre_date">
+                    {{matter.createdDate}}
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    ステータス
+                </div>
+                <div class="con_table_cell">
+                    <input type="hidden" id="com_status" value="{{matter.completeStatus}}">
+                    <select name="completeStatus" id="select_complete_status">
+                        <option value="N">
+                            処理中
+                        </option>
+                        <option value="Y">
+                            処理完了
+                        </option>
+                        <option value="E">
+                            その他
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="con_table_row">
+                <div class="con_table_cell">
+                    その他
+                </div>
+                <div class="con_table_cell">
+                    <textarea id="content">{{matter.content}}</textarea>
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="btns">
+            <button type="button" class="btn" id="goback">戻る</button>
+            <button type="button" class="btn" id="modify">修正</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/modify.js"></script>
+    {{>layouts/footer}}

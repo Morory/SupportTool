@@ -1,0 +1,48 @@
+.content h2
+{
+    margin: 20px 0;
+    color: royalblue;
+}
+.content h2 button
+{
+    background: none;
+    vertical-align: middle;
+    font-size: 0.9em;
+    border: 1px solid lightgray;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content h2 span
+{
+    color: royalblue;
+    padding: 0 10px;
+}
+.content #selectedDate
+{
+    border: 0;
+}
+.content .detail
+{
+    display: flex;
+}
+.content .detail .table
+{
+    width: 400px;
+    display: table;
+    font-size: 1.4em;
+    border-collapse: collapse;
+}
+.content .detail .table .row
+{
+    display: table-row;
+}
+.content .detail .table .row .cell
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content .detail .table .row .cell:first-child
+{
+    width: 50%;
+}

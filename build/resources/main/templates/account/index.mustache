@@ -1,0 +1,54 @@
+{{>layouts/header}}
+
+    <link rel="stylesheet" href="/css/index.css">
+    <div class="content">
+        <h1>新着情報</h1>
+        <hr>
+        <div class="reg_btn">
+            <a href="/matter/register"><button type="button" class="btn">案件新規登録</button></a>
+        </div>
+        <div class="size_btn">
+            <select>
+                <option value="5">5件</option>
+                <option value="10" selected>10件</option>
+                <option value="20">20件</option>
+            </select>
+        </div>
+        <div class="pm_table">
+            <div class="pm_thead">
+                <div class="pm_table_row">
+                    <div class="pm_table_cell">
+                        NO
+                    </div>
+                    <div class="pm_table_cell">
+                        タイトル
+                    </div>
+                    <div class="pm_table_cell">
+                        作成者
+                    </div>
+                    <div class="pm_table_cell">
+                        更新日
+                    </div>
+                    <div class="pm_table_cell">
+                        ステータス
+                    </div>
+                </div>
+            </div>
+            <div class="pm_table_row_group">
+            </div>
+        </div>
+        <div class="pagination-wrap">
+            <ul class="pagination">
+                <li id="page-prev"><span><i class="fas fa-chevron-left"></i></span></li>
+                <li class="page_number">
+                    <ul class="fc-list">
+                    </ul>
+                </li>
+                <li id="page-next"><span><i class="fas fa-chevron-right"></i></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/index.js"></script>
+
+{{>layouts/footer}}

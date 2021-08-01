@@ -1,0 +1,102 @@
+@font-face {
+    src: url("../font/kosugiMaru.ttf");
+    font-family: 'Kosugi Maru', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+}
+section h1
+{
+    font-size: 2.3em;
+    text-align: center;
+}
+section hr
+{
+    width: 320px;
+}
+.content #logo
+{
+    text-align: center;
+}
+.content #logo img
+{
+    width: 100px;
+    transition: all ease 1s;
+}
+.content #logo img:hover
+{
+    transform: rotate(-42deg);
+}
+.content .input
+{
+    width: 300px;
+    height: 40px;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+.content span
+{
+    color: royalblue;
+}
+.content .submit
+{
+    text-align: center;
+}
+.content .btn
+{
+    width: 330px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: royalblue;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.content .btn:hover
+{
+    color: royalblue;
+    background-color: white;
+    border: 2px solid royalblue;
+}
+@media (max-width: 991px)
+{
+    section
+    {
+        height: 100%;
+    }
+    .content
+    {
+        padding-bottom: 300px;
+    }
+}
+@media (prefers-color-scheme: dark)
+{
+    body
+    {
+        color: lightgray;
+        background: rgb(53, 54, 58);
+    }
+    section
+    {
+        background: rgb(53, 54, 58);
+    }
+}

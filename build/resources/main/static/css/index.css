@@ -1,0 +1,181 @@
+section
+{
+    align-items: flex-start;
+}
+.content
+{
+    flex-direction: column;
+    justify-content: center;
+}
+.content h1
+{
+    color: royalblue;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.content hr
+{
+    width: 100%;
+}
+.content .reg_btn
+{
+    margin-left: auto;
+    margin-right: 2.5%;
+}
+.content .size_btn
+{
+    margin-left: auto;
+    margin-right: 2.5%;
+}
+.content .size_btn select
+{
+    height: 25px;
+    width: 60px;
+}
+.content .pm_table
+{
+    display: table;
+    width: 95%;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+}
+.content .pm_thead
+{
+    display: table-header-group;
+    height: 40px;
+    border-top: 2px solid;
+    border-bottom: 1px solid;
+    border-color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+.content .pm_thead .pm_table_row .pm_table_cell:nth-child(1)
+{
+    width: 9%;
+}
+.content .pm_thead .pm_table_row .pm_table_cell:nth-child(2)
+{
+    width: 40%;
+}
+.content .pm_thead .pm_table_row .pm_table_cell:nth-child(3)
+{
+    width: 12%;
+}
+.content .pm_thead .pm_table_row .pm_table_cell:nth-child(4)
+{
+    width: 20%;
+}
+.content .pm_thead .pm_table_row .pm_table_cell:nth-child(5)
+{
+    width: 12%;
+}
+.content .pm_table_row_group
+{
+    display: table-row-group;
+}
+.content .pm_table_row
+{
+    display: table-row;
+    height: 35px;
+    border-bottom: 1px solid #eee;
+}
+.content .pm_table_row_group .pm_table_row:hover
+{
+    background: #f3f3f3;
+}
+.content .pm_table_row:last-child
+{
+    border-color: gray;
+}
+.content .pm_table_row_group .pm_table_row .pm_table_cell:nth-child(1),
+.content .pm_table_row_group .pm_table_row .pm_table_cell:nth-child(3),
+.content .pm_table_row_group .pm_table_row .pm_table_cell:nth-child(4),
+.content .pm_table_row_group .pm_table_row .pm_table_cell:nth-child(5)
+{
+    text-align: center;
+}
+.content .pm_table_row_group .pm_table_row .pm_table_cell:nth-child(2) a
+{
+    text-decoration: none;
+    color: black;
+}
+.content .pm_table_row_group .pm_table_row .pm_table_cell:nth-child(2):hover
+{
+    text-decoration: underline;
+}
+.content .pm_table_cell
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content .pagination
+{
+    position: relative;
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+}
+.content .pagination .available:hover
+{
+    color: royalblue;
+    cursor: pointer;
+}
+.content .pagination li
+{
+    list-style: none;
+    display: inline-block;
+    color: #333;
+}
+#page-prev, #page-next
+{
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 40px;
+    text-align: center;
+}
+.content .pagination .unavailable
+{
+    color: lightgray;
+}
+.content .pagination .fc-list
+{
+    display: flex;
+    margin: 0 5px;
+}
+.content .pagination .fc-list li
+{
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.content .pagination .fc-list li span
+{
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin: 4px;
+    display: inline-block;
+}
+.content .pagination .fc-list .selected span
+{
+    color: white;
+    background: darkgray;
+    border-radius: 16px;
+}
+@media (max-width: 991px)
+{
+    .content
+    {
+        margin-top: 80px;
+    }
+    .content h1
+    {
+        font-size: 1.6em;
+    }
+    .content .btn
+    {
+        width: 180px;
+        height: 35px;
+        font-size: 0.9em;
+    }
+}

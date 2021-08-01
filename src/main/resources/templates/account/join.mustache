@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Join Page</title>
+    <link rel="stylesheet" href="/css/join.css">
+    <script type="text/javascript" src="/js/join.js"></script>
+</head>
+<body>
+<section>
+    <div class="content">
+        <div id="logo"><a href="/loginForm"><img src="img/main_logo.png"></a></div>
+        <h1>会員登録</h1>
+        <br>
+        <hr>
+        <br>
+        <form action="/join" method="post">
+            <div>
+                <span>必須</span><input type="text" name="username" placeholder="ユーザID" class="input">
+            </div>
+            <div>
+                <span>必須</span><input type="password" name="password" placeholder="パスワード" class="input">
+            </div>
+            <div>
+                <span>必須</span><input type="email" name="email" placeholder="メールアドレス" class="input">
+            </div>
+            <div class="submit">
+                <button type="submit" class="btn">登録</button>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>

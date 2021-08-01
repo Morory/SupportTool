@@ -1,0 +1,65 @@
+{{>layouts/header}}
+
+    <link rel="stylesheet" href="/css/register.css">
+    <div class="content">
+        <h1>案件登録</h1>
+        <hr>
+        <div id="chk_comment">※　この内容で登録してもよろしいでしょうか。</div>
+        <form action="/matter/register" method="post" onsubmit="lastChk();">
+        <div class="reg_table">
+            <div class="reg_table_row">
+                <div class="reg_table_cell">
+                    タイトル<span>*</span>
+                </div>
+                <div class="reg_table_cell">
+                    <input type="text" name="title" id="title" maxlength="30">
+                    <div id="chk_title" class="chk_input"></div>
+                </div>
+            </div>
+            <div class="reg_table_row">
+                <div class="reg_table_cell">
+                    作成者
+                </div>
+                <div class="reg_table_cell">
+                    {{username}}
+                </div>
+            </div>
+            <div class="reg_table_row">
+                <div class="reg_table_cell">
+                    ステータス<span>*</span>
+                </div>
+                <div class="reg_table_cell">
+                    <select name="completeStatus" id="complete_status">
+                        <option value="N" selected>
+                            処理中
+                        </option>
+                        <option value="Y">
+                            処理完了
+                        </option>
+                        <option value="E">
+                            その他
+                        </option>
+                    </select>
+                    <div id="chk_status" class="chk_input"></div>
+                </div>
+            </div>
+            <div class="reg_table_row">
+                <div class="reg_table_cell">
+                    その他
+                </div>
+                <div class="reg_table_cell">
+                    <textarea name="content" maxlength="80" id="content"></textarea>
+                    <div id="chk_content" class="chk_input"></div>
+                </div>
+            </div>
+        </div>
+        <button type="reset" class="btn" id="reset">リセツト</button>
+            <button type="button" class="btn" onclick="goBack();" id="goback" >戻る</button>
+        <button type="button" class="btn" onclick="chkMatter();" id="chk">登録</button>
+        <button type="submit" class="btn" id="submit">登録</button>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="/js/register.js"></script>
+
+{{>layouts/footer}}
