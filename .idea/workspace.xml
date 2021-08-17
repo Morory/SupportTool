@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="배치 관련 오류 수정" />
+    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="배치 관련 오류 수정">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +128,7 @@
       <workItem from="1629195123663" duration="1472000" />
       <workItem from="1629213354469" duration="173000" />
       <workItem from="1629213597660" duration="1768000" />
-      <workItem from="1629216171647" duration="693000" />
+      <workItem from="1629216171647" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="war 설정">
       <created>1629126223161</created>
@@ -170,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629216617020</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="배치 관련 오류 수정">
+      <created>1629217107411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629217107411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="배치 관련 오류 수정">
+      <created>1629217141256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629217141256</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
