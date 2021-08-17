@@ -2,14 +2,6 @@ plugins {
     id 'org.springframework.boot' version '2.5.2'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
-    id 'war'
-}
-
-apply plugin: 'war'
-
-bootWar {
-    archiveBaseName="springboot" // 추가
-    archiveVersion="1.0.0-SNAPSHOT" // 추가
 }
 
 group = 'com.support'
