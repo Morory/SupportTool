@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="static, templates 경로 수정">
+    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="집계에 데이터가 없을 시 발생하는 오류 수정">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/CountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/CountingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/job/CountingJobConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/job/CountingJobConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/scheduler/CountingScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/scheduler/CountingScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/repository/MatterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/repository/MatterRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/CountingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/CountingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/counting/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/counting/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/job/CountingJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/job/CountingJobConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/repository/MatterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/repository/MatterRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +41,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/modify.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/remove.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/register.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/domain/CountingMatter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/service/CountingServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/service/MatterServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/counting/index.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/controller/AccountController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/register.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/controller/CountingController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/controller/MatterController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/modify.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/repository/MatterRepository.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/modify.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/remove.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/register.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/service/CountingServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/service/MatterServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/repository/CountingMatterRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/batch/job/CountingJobConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/counting/index.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1w7boWy1RXkfFqOnJpuRKa4adIY" />
   <component name="ProjectViewState">
@@ -54,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -121,7 +133,9 @@
       <workItem from="1629188116113" duration="1352000" />
       <workItem from="1629189535146" duration="1154000" />
       <workItem from="1629194881252" duration="194000" />
-      <workItem from="1629195123663" duration="689000" />
+      <workItem from="1629195123663" duration="1472000" />
+      <workItem from="1629213354469" duration="173000" />
+      <workItem from="1629213597660" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="war 설정">
       <created>1629126223161</created>
@@ -144,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629192478375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="집계에 데이터가 없을 시 발생하는 오류 수정">
+      <created>1629195995219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629195995219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="war 설정" />
     <MESSAGE value="static, templates 경로 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="static, templates 경로 수정" />
+    <MESSAGE value="집계에 데이터가 없을 시 발생하는 오류 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="집계에 데이터가 없을 시 발생하는 오류 수정" />
   </component>
 </project>

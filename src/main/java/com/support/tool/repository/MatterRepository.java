@@ -17,8 +17,7 @@ public interface MatterRepository extends JpaRepository<Matter, Integer> {
                  + "     , COUNT(CASE WHEN complete_status = 'E' THEN 1 END) AS etcAmount         "
                  + "FROM matter                                                                   "
                  + "WHERE status = 'Y'                                                            "
-                 + "AND   created_date >= CONCAT(:countingDate, ' 00:00:00')                      "
-                 + "AND   created_date <= CONCAT(:countingDate, ' 23:59:59')                      "
+                 + "AND   created_date BETWEEN CONCAT(:countingDate, ' 00:00:00') AND CONCAT(:countingDate, ' 23:59:59')"
             , nativeQuery = true)
     ICountingMatter findCountingMatter(@Param("countingDate") String countingDate);
 

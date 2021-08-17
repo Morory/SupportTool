@@ -53,12 +53,12 @@ public class CountingJobConfig {
             Calendar cl = Calendar.getInstance();
             cl.add(Calendar.DATE, -1);
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            String countingDate = sdf.format(cl.getTime()).replace("-", "");
+            String countingDate = sdf.format(cl.getTime());
 
             MatterRepository.ICountingMatter iCountingMatter = matterRepository.findCountingMatter(countingDate);
             CountingMatter countingMatter =
                     CountingMatter.builder()
-                    .countedDate(countingDate)
+                    .countedDate(countingDate.replace("-", ""))
                     .dailyTotal(iCountingMatter.getDailyTotal())
                     .uncompletedAmount(iCountingMatter.getUncompletedAmount())
                     .completedAmount(iCountingMatter.getCompletedAmount())
