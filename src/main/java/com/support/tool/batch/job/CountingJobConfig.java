@@ -51,7 +51,7 @@ public class CountingJobConfig {
         return ((contribution, chunkContext) -> {
             log.info("Tasklet started");
             Calendar cl = Calendar.getInstance();
-            cl.add(Calendar.DATE, -1);
+            cl.add(Calendar.DATE, -2);
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
             String countingDate = sdf.format(cl.getTime());
 

@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="집계에 데이터가 없을 시 발생하는 오류 수정">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="배치 관련 오류 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/job/CountingJobConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/job/CountingJobConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/scheduler/CountingScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/batch/scheduler/CountingScheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/repository/MatterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/repository/MatterRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/job/CountingJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/job/CountingJobConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/repository/MatterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/repository/MatterRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +132,8 @@
       <workItem from="1629194881252" duration="194000" />
       <workItem from="1629195123663" duration="1472000" />
       <workItem from="1629213354469" duration="173000" />
-      <workItem from="1629213597660" duration="1730000" />
+      <workItem from="1629213597660" duration="1768000" />
+      <workItem from="1629216171647" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="war 설정">
       <created>1629126223161</created>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629195995219</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="배치 관련 오류 수정">
+      <created>1629215361757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629215361757</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +192,7 @@
     <MESSAGE value="war 설정" />
     <MESSAGE value="static, templates 경로 수정" />
     <MESSAGE value="집계에 데이터가 없을 시 발생하는 오류 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="집계에 데이터가 없을 시 발생하는 오류 수정" />
+    <MESSAGE value="배치 관련 오류 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="배치 관련 오류 수정" />
   </component>
 </project>
