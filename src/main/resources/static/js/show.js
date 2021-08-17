@@ -11,7 +11,7 @@ function complete() {
     let url = "/matter/modify/" + id;
     let xhr = new XMLHttpRequest();
     let data = {
-        complete_status: 'Y',
+        completeStatus: 'Y',
     };
     xhr.onreadystatechange = function () {
         if (xhr.readyState === xhr.DONE) {

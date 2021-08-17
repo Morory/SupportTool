@@ -13,6 +13,8 @@ spring:
       filter:
         enabled: true
 
+    static-path-pattern: /static/**
+
   batch:
     job:
       enabled: false # CommandLineRunner 설정 해제
@@ -37,6 +39,8 @@ spring:
   mustache:
     expose-request-attributes: true
     expose-session-attributes: true
+    suffix: .mustache
+    prefix=classpath: /templates/
 
   devtools:
     livereload:
@@ -58,6 +62,10 @@ spring:
             enable: true
             required: true
           auth: true
+  web:
+    resources:
+      static-locations: classpath:/static/
+      add-mappings: true
 
 logging:
   level:

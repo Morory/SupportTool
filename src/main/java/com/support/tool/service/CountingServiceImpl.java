@@ -20,7 +20,7 @@ public class CountingServiceImpl implements ICountingService {
     public String getLatestCounting(Model model) {
         CountingMatter countingMatter = countingMatterRepository.findFirstByOrderByCountedDateDesc();
         model.addAttribute("countingMatter", countingMatter);
-        return "/counting/index";
+        return "counting/index";
     }
 
     @Override

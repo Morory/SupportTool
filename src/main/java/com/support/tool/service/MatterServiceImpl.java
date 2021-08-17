@@ -51,7 +51,7 @@ public class MatterServiceImpl implements IMatterService {
             model.addAttribute("isWriter", isWriter);
             model.addAttribute("isAdmin", isAdmin);
         }
-        return "/matter/show";
+        return "matter/show";
     }
 
     @Override

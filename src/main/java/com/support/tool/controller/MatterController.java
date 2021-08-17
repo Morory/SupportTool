@@ -43,7 +43,7 @@ public class MatterController {
     @GetMapping("/register")
     public String registerForm() {
         log.info("Matter RegisterForm called");
-        return "/matter/register";
+        return "matter/register";
     }
 
     // 안건 등록 수행
@@ -57,7 +57,7 @@ public class MatterController {
     public String modifyForm(Model model, @PathVariable int id) {
         log.info("Matter ModifyForm called");
         matterService.getMatter(model, id);
-        return "/matter/modify";
+        return "matter/modify";
     }
 
     @PutMapping("/modify/{id}")
@@ -70,7 +70,7 @@ public class MatterController {
     public String removeForm(Model model, @PathVariable int id) {
         log.info("Matter RemoveForm called");
         matterService.getMatter(model, id);
-        return "/matter/remove";
+        return "matter/remove";
     }
 
     @DeleteMapping("/remove/{id}")

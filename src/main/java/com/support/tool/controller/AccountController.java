@@ -21,21 +21,21 @@ public class AccountController {
     @GetMapping("/")
     public String index() {
         log.info("Index called");
-        return "/account/index";
+        return "account/index";
     }
 
     // 로그인 화면 출력
     @GetMapping("/loginForm")
     public String loginForm() {
         log.info("LoginForm called");
-        return "/account/login";
+        return "account/login";
     }
 
     // 회원가입 화면 출력
     @GetMapping("/joinForm")
     public String joinForm() {
         log.info("JoinForm called");
-        return "/account/join";
+        return "account/join";
     }
 
     // 회원가입 수행
