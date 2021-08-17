@@ -21,11 +21,13 @@ public class CountingController {
 
     @GetMapping("/")
     public String index(Model model) {
+        log.info("Counting Index called ");
         return countingService.getLatestCounting(model);
     }
 
     @GetMapping("/show/{countedDate}")
     public ResponseEntity<CountingMatter> show(@PathVariable String countedDate) {
+        log.info("Counting Show called");
         return countingService.getCountingByCountedDate(countedDate);
     }
 }

@@ -6,6 +6,7 @@
         <hr>
         <h2>集計日付 <button type="button"><input id="selectedDate"><i class="fas fa-caret-down"></i></button></h2>
         <div class="detail">
+            {{#countingMatter}}
             <input type="hidden" id="date" value="{{countingMatter.countedDate}}">
             <input type="hidden" id="complete" value="{{countingMatter.completedAmount}}">
             <input type="hidden" id="uncomplete" value="{{countingMatter.uncompletedAmount}}">
@@ -45,6 +46,10 @@
                     </div>
                 </div>
             </div>
+            {{/countingMatter}}
+            {{^countingMatter}}
+                <h3>データがありません</h3>
+            {{/countingMatter}}
         </div>
     </div>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

@@ -4,42 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="war 설정">
+    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="static, templates 경로 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/MatterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/MatterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/service/CountingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/service/CountingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/service/MatterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/service/MatterServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/support/tool/ToolApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/account/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/account/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/account/join.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/account/join.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/account/login.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/account/login.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/counting/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/counting/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layouts/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layouts/footer.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layouts/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layouts/header.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/matter/modify.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/matter/modify.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/matter/register.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/matter/register.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/matter/remove.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/matter/remove.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/matter/show.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/matter/show.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/CountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/support/tool/controller/CountingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/MatterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/MatterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/service/CountingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/service/CountingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/service/MatterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/service/MatterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/show.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/account/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/account/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/account/join.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/account/join.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/account/login.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/account/login.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/CountingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/controller/CountingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/counting/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/counting/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/footer.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/header.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/matter/modify.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/matter/modify.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/matter/register.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/matter/register.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/matter/remove.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/matter/remove.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/matter/show.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/matter/show.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/controller/AccountController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/register.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/controller/CountingController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/controller/MatterController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/modify.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/static/js/modify.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/remove.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/matter/register.mustache" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/service/CountingServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/support/tool/service/MatterServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1w7boWy1RXkfFqOnJpuRKa4adIY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -82,6 +64,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="JAR Application.tool-0.0.1-SNAPSHOT.jar">
     <configuration name="tool-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
@@ -136,7 +119,9 @@
       <workItem from="1629188039394" duration="6000" />
       <workItem from="1629188048996" duration="41000" />
       <workItem from="1629188116113" duration="1352000" />
-      <workItem from="1629189535146" duration="636000" />
+      <workItem from="1629189535146" duration="1154000" />
+      <workItem from="1629194881252" duration="194000" />
+      <workItem from="1629195123663" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="war 설정">
       <created>1629126223161</created>
@@ -152,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629185886152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="static, templates 경로 수정">
+      <created>1629192478375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629192478375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="war 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="war 설정" />
+    <MESSAGE value="static, templates 경로 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="static, templates 경로 수정" />
   </component>
 </project>
