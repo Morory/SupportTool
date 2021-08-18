@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="배치 관련 오류 수정" />
+    <list default="true" id="7cd2b0aa-91aa-4e56-a8c7-86c04776bfaa" name="Default Changelist" comment="배치 관련 오류 수정">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/support/tool/batch/scheduler/CountingScheduler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +137,7 @@
       <workItem from="1629213354469" duration="173000" />
       <workItem from="1629213597660" duration="1768000" />
       <workItem from="1629216171647" duration="3569000" />
+      <workItem from="1629246761754" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="war 설정">
       <created>1629126223161</created>
@@ -220,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629219146969</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="배치 관련 오류 수정">
+      <created>1629246786727</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629246786727</updated>
+    </task>
+    <task id="LOCAL-00014" summary="배치 관련 오류 수정">
+      <created>1629246945447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629246945447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
