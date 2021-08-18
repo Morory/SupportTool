@@ -19,7 +19,7 @@ public class CountingScheduler {
     private final Job job;
     private final JobLauncher jobLauncher;
 
-    @Scheduled(cron = "0 0 2 * * ?")
+    @Scheduled(cron = "0 35 9 * * ?")
     public void executeJob() {
         try {
             jobLauncher.run(
